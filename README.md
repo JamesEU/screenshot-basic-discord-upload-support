@@ -5,7 +5,7 @@
 FORKED FROM CFX.RE SCREENSHOT-BASIC
 
 
-1. Discord Support Usage 
+1. Discord Support Usage (Server Sided)
 
 ```lua
     exports["screenshot-basic"]:requestClientScreenshot(source,{
