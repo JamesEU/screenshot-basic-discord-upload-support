@@ -12,7 +12,7 @@ exports("sendScreenshot", (filename, content) => {
             'file1': {
                 'value': fs.createReadStream('./' + filename),
                 'options': {
-                    'filename': '/D:/Server-Directory/' + filename,
+                    'filename': '/D:/Server-Directory/' + filename, // CHANGE THE SERVER DIRECTORY AND DRIVE TO WHERE IT IS LOCATED ON YOUR PC / SERVER
                     'contentType': null
                 }
             },
